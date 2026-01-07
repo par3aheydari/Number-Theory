@@ -11,7 +11,7 @@ export function Footer() {
           {t('footer.madeWith')} <span className="heart">❤️</span>
         </p>
         <a
-          href="https://github.com/yourusername/prime-site"
+          href="https://github.com/par3aheydari/Number-Theory"
           target="_blank"
           rel="noopener noreferrer"
           className="github-link"

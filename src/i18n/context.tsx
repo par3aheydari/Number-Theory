@@ -14,7 +14,7 @@ const I18nContext = createContext<I18nContextType | undefined>(undefined);
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(() => {
     const saved = localStorage.getItem('language') as Language;
-    return saved || 'fa';
+    return saved || 'en';
   });
 
   const t = (key: string): string => {
