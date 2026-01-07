@@ -20,7 +20,9 @@ export const translations = {
       gcd: "GCD",
       lcm: "LCM",
       calculate: "Calculate",
-      result: "Result"
+      result: "Result",
+      placeholder1: "Enter first number",
+      placeholder2: "Enter second number"
     },
     primeChecker: {
       title: "Prime Number Checker & Generator",
@@ -34,7 +36,10 @@ export const translations = {
       generate: "Generate Prime",
       generateRandom: "Generate Random Prime",
       checking: "Checking...",
-      factors: "Prime Factors"
+      factors: "Prime Factors",
+      placeholder: "Enter a number",
+      placeholderStart: "Enter starting number",
+      check: "Check"
     },
     primeList: {
       title: "Prime Numbers List",
@@ -44,7 +49,10 @@ export const translations = {
       showPrimes: "Show Primes",
       noPrimes: "No prime numbers found in this range",
       found: "Found",
-      primes: "prime numbers"
+      primes: "prime numbers",
+      placeholderFrom: "From",
+      placeholderTo: "To",
+      loading: "Loading..."
     },
     article: {
       title: "Number Theory in Cryptography",
@@ -150,7 +158,9 @@ The tools on this website allow you to explore these concepts interactively and 
       gcd: "ب.م.م",
       lcm: "ک.م.م",
       calculate: "محاسبه",
-      result: "نتیجه"
+      result: "نتیجه",
+      placeholder1: "عدد اول را وارد کنید",
+      placeholder2: "عدد دوم را وارد کنید"
     },
     primeChecker: {
       title: "بررسی و تولید عدد اول",
@@ -164,7 +174,10 @@ The tools on this website allow you to explore these concepts interactively and 
       generate: "تولید عدد اول",
       generateRandom: "تولید عدد اول تصادفی",
       checking: "در حال بررسی...",
-      factors: "عوامل اول"
+      factors: "عوامل اول",
+      placeholder: "یک عدد وارد کنید",
+      placeholderStart: "عدد شروع را وارد کنید",
+      check: "بررسی"
     },
     primeList: {
       title: "فهرست اعداد اول",
@@ -174,7 +187,10 @@ The tools on this website allow you to explore these concepts interactively and 
       showPrimes: "نمایش اعداد اول",
       noPrimes: "هیچ عدد اولی در این بازه یافت نشد",
       found: "یافت شد",
-      primes: "عدد اول"
+      primes: "عدد اول",
+      placeholderFrom: "از",
+      placeholderTo: "تا",
+      loading: "در حال بارگذاری..."
     },
     article: {
       title: "نظریه اعداد در رمزنگاری",

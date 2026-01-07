@@ -38,7 +38,7 @@ function AppContent() {
 function App() {
   return (
     <I18nProvider>
-      <BrowserRouter basename="/prime-site">
+      <BrowserRouter basename="/Number-Theory">
         <AppContent />
       </BrowserRouter>
     </I18nProvider>

@@ -1,0 +1,54 @@
+.github-floating-btn {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  width: 56px;
+  height: 56px;
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(34, 197, 94, 0.4);
+  transition: all 0.3s ease;
+  z-index: 999;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.github-floating-btn:hover {
+  transform: translateY(-4px) scale(1.1);
+  box-shadow: 0 8px 30px rgba(34, 197, 94, 0.6);
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+}
+
+.github-floating-btn .github-icon {
+  width: 28px;
+  height: 28px;
+  fill: white;
+}
+
+[dir="rtl"] .github-floating-btn {
+  left: auto;
+  right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .github-floating-btn {
+    width: 48px;
+    height: 48px;
+    bottom: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .github-floating-btn .github-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  [dir="rtl"] .github-floating-btn {
+    right: 1.5rem;
+  }
+}
+

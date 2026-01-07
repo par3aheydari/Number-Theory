@@ -40,7 +40,7 @@ export function GcdLcm() {
               type="number"
               value={num1}
               onChange={(e) => setNum1(e.target.value)}
-              placeholder="Enter first number"
+              placeholder={t('gcdLcm.placeholder1')}
               min="1"
             />
           </div>
@@ -51,7 +51,7 @@ export function GcdLcm() {
               type="number"
               value={num2}
               onChange={(e) => setNum2(e.target.value)}
-              placeholder="Enter second number"
+              placeholder={t('gcdLcm.placeholder2')}
               min="1"
             />
           </div>

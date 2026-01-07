@@ -46,7 +46,7 @@ export function PrimeList() {
                 type="number"
                 value={from}
                 onChange={(e) => setFrom(e.target.value)}
-                placeholder="From"
+                placeholder={t('primeList.placeholderFrom')}
                 min="2"
               />
             </div>
@@ -57,14 +57,14 @@ export function PrimeList() {
                 type="number"
                 value={to}
                 onChange={(e) => setTo(e.target.value)}
-                placeholder="To"
+                placeholder={t('primeList.placeholderTo')}
                 min="2"
               />
             </div>
           </div>
 
           <button onClick={handleShowPrimes} className="calculate-btn" disabled={loading}>
-            {loading ? 'Loading...' : t('primeList.showPrimes')}
+            {loading ? t('primeList.loading') : t('primeList.showPrimes')}
           </button>
 
           {primes.length > 0 && (

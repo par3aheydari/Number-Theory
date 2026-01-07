@@ -95,12 +95,12 @@ export function PrimeChecker() {
                   type="number"
                   value={inputNumber}
                   onChange={(e) => setInputNumber(e.target.value)}
-                  placeholder="Enter a number"
+                  placeholder={t('primeChecker.placeholder')}
                   min="2"
                 />
               </div>
               <button onClick={handleCheck} className="calculate-btn" disabled={checking}>
-                {checking ? t('primeChecker.checking') : 'Check'}
+                {checking ? t('primeChecker.checking') : t('primeChecker.check')}
               </button>
             </>
           ) : (
@@ -120,12 +120,12 @@ export function PrimeChecker() {
                 </div>
               </div>
               <div className="input-group">
-                <label>Start from (optional)</label>
+                <label>{t('primeChecker.enterNumber')}</label>
                 <input
                   type="number"
                   value={inputNumber}
                   onChange={(e) => setInputNumber(e.target.value)}
-                  placeholder="Enter starting number"
+                  placeholder={t('primeChecker.placeholderStart')}
                   min="2"
                 />
               </div>
